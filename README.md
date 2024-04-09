@@ -1,18 +1,18 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## How to Run
 
-First, run the development server:
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Run `npm install` to install dependencies.
+4. Add your environment variables, such as NEXT_PUBLIC_CONVEX_URL, CONVEX_DEPLOYMENT, NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY and CLERK_SECRET_KEY.
+5. Ensure that all environment variables are properly configured before proceeding further.
+6. Run `npx convex dev` to start convex server. 
+7. Run `npm run dev` to start the development server.
+8. Open your browser and go to `http://localhost:3000` to access the file drive.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### <p align="center"> Or you can simply [contact me](mailto:azimov.workspace@gmail.com) to get demo access to the project due to unavailability of deploying the project, caused by the clerk demanding to have all authorized private domain with all OAuth rights to it, and as I don't own any private domain, it's not feasible to meet this requirement.</p>
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
